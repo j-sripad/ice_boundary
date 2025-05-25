@@ -23,21 +23,21 @@ For a given image, for each column, we picked two row indices of highest probabi
 
 Example results
 
-| ![image](ice_boundary/results/09/air_ice_output_09_simple_ir.png) |
+| ![image](results/09/air_ice_output_09_simple_ir.png) |
 |:--:| 
 | 09.png simple air-ice boundary |
 
-| ![image](ice_boundary/results/09/ice_rock_output_09_simple_ai.png) |
+| ![image](results/09/ice_rock_output_09_simple_ai.png) |
 |:--:| 
 | 09.png simple ice-bedrock boundary |
 
 But this approach fails for a difficult case where only using the edge strength is not enough for the boundary detection
 
-| ![image](ice_boundary/results/23/air_ice_output_23_simple.png) |
+| ![image](results/23/air_ice_output_23_simple.png) |
 |:--:| 
 | 23.png simple air-ice boundary |
 
-| ![image](ice_boundary/results/23/ice_rock_output_23_simple.png) |
+| ![image](results/23/ice_rock_output_23_simple.png) |
 |:--:| 
 | 23.png simple ice-bedrock boundary |
 
@@ -56,21 +56,21 @@ So, for a given row and column, the transition probability of going to the next 
 
 Example results
 
-| ![image](ice_boundary/results/31/air_ice_output_31_viterbi.png) |
+| ![image](results/31/air_ice_output_31_viterbi.png) |
 |:--:| 
 | 31.png viterbi air-ice boundary |
 
-| ![image](ice_boundary/results/31/ice_rock_output_31_viterbi.png) |
+| ![image](results/31/ice_rock_output_31_viterbi.png) |
 |:--:| 
 | 31.png viterbi ice-bedrock boundary |
 
 The difficult example which didn't work well with simple:
 
-| ![image](ice_boundary/results/23/air_ice_output_23_viterbi.png) |
+| ![image](results/23/air_ice_output_23_viterbi.png) |
 |:--:| 
 | 23.png Viterbi air-ice boundary |
 
-| ![image](ice_boundary/results/23/ice_rock_output_23_viterbi.png) |
+| ![image](results/23/ice_rock_output_23_viterbi.png) |
 |:--:| 
 | 23.png Viterbi ice-bedrock boundary |
 
@@ -87,21 +87,21 @@ This improves the outputs further. Below are example outputs.
 
 Example outputs:
 
-| ![image](ice_boundary/results/30/air_ice_output_30_viterbi_human_feedback.png) |
+| ![image](results/30/air_ice_output_30_viterbi_human_feedback.png) |
 |:--:| 
 | 30.png viterbi - human feedback air-ice boundary |
 
-| ![image](ice_boundary/results/30/ice_rock_output_30_viterbi_human_feedback.png) |
+| ![image](results/30/ice_rock_output_30_viterbi_human_feedback.png) |
 |:--:| 
 | 30.png viterbi human feedback  ice-bedrock boundary |
 
 The difficult example which didn't work well with simple:
 
-| ![image](ice_boundary/results/23/air_ice_output_23_viterbi_human_feedback.png) |
+| ![image](results/23/air_ice_output_23_viterbi_human_feedback.png) |
 |:--:| 
 | 23.png Viterbi - human feedback air-ice boundary |
 
-| ![image](ice_boundary/results/23/ice_rock_output_23_viterbi_human_feedback.png) |
+| ![image](results/23/ice_rock_output_23_viterbi_human_feedback.png) |
 |:--:| 
 | 23.png Viterbi -  human feedback ice-bedrock boundary |
 
